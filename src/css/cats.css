@@ -1,0 +1,10 @@
+.cat-info {
+    display: flex;
+    gap: 20px;
+}
+
+.cat-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
