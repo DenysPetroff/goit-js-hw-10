@@ -41,9 +41,9 @@ function handlerCatSelect() {
     // console.log(cat);
     catInfoMarkup(cat)
   }).catch(() => {
-    selectors.catInfoDiv.innerHTML = '';
+    selectors.catContainerInfo.innerHTML = '';
     hideLoader();
-    showError() }
+    showError(); }
     )
    
 }
